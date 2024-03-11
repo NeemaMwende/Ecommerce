@@ -1,0 +1,57 @@
+
+    /* Add custom styles for the navbar */
+    .navbar {
+      justify-content: space-between;
+    }
+
+    .navbar-brand {
+      margin-right: auto; /* Push the brand to the far left */
+    }
+
+    .navbar-nav {
+      width: 100%; /* Make the navbar-nav take up the entire width */
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .custom-search-box {
+      width: 900px;
+      margin-right: 8px; /* Adjust spacing between the search box and dropdown */
+    }
+
+    .custom-categories-dropdown {
+      width: 200px;
+    }
+    .btn{
+        width: 200px;
+    }
+   /* Custom styles for the upper navbar */
+   .navbar-upper {
+    background-color: #f8f9fa; /* Set background color */
+    border-bottom: 1px solid #dee2e6; /* Add a bottom border */
+  }
+
+  .navbar-upper .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar-upper ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .navbar-upper li {
+    margin-right: 15px; /* Adjust the right margin between items */
+  }
+
+  .navbar-upper li:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+  }
+
+  .navbar-upper h6 {
+    margin-bottom: 0; /* Remove the default margin from h6 */
+  }

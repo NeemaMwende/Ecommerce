@@ -71,6 +71,7 @@
   .footer-column {
     flex: 1;
     margin-right: 20px; /* Adjust the right margin between columns */
+    line-height: 30px;
   }
 
   .footer-title {
@@ -90,4 +91,7 @@
 
   .footer-item li:hover {
     transform: translateX(-5px); /* Move the item to the left on hover */
+  }
+  .bottom{
+    padding: 50px;
   }

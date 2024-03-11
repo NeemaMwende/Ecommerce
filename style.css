@@ -55,3 +55,39 @@
   .navbar-upper h6 {
     margin-bottom: 0; /* Remove the default margin from h6 */
   }
+
+  /* footer */
+  /* Custom styles for the footer */
+  footer {
+    background-color: #f8f9fa; /* Set background color */
+    padding: 20px 0; /* Add padding for spacing */
+  }
+
+  .footer-columns {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-column {
+    flex: 1;
+    margin-right: 20px; /* Adjust the right margin between columns */
+  }
+
+  .footer-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .footer-item {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer-item li {
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .footer-item li:hover {
+    transform: translateX(-5px); /* Move the item to the left on hover */
+  }

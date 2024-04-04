@@ -61,6 +61,7 @@
   footer {
     background-color: #f8f9fa; /* Set background color */
     padding: 20px 0; /* Add padding for spacing */
+    width: 100%;
   }
 
   .footer-columns {
